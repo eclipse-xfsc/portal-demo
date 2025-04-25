@@ -1,0 +1,75 @@
+{
+  "location": ["Berlin", "Magdeburg", "New York", "Paris", "London", "Belgrade"],
+  "location-country": ["Germany", "USA", "France", "Serbia"],
+  "location-flag": [
+    "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/2880px-Flag_of_Germany.svg.png",
+    "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/2880px-Flag_of_Germany.svg.png",
+    "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/2880px-Flag_of_the_United_States.svg.png",
+    "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/2560px-Flag_of_France.svg.png",
+    "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/2880px-Flag_of_the_United_Kingdom.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/1599px-Flag_of_Serbia.svg.png"
+  ],
+  "preview-img": [
+    "https://upload.wikimedia.org/wikipedia/commons/f/f6/Swiss_National_Park_131.JPG",
+    "https://upload.wikimedia.org/wikipedia/commons/6/65/Adirondacks_in_May_2008.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/0/09/Zall_Dajti.jpg",
+    "https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-674010.jpg&fm=jpg",
+    "https://images.pexels.com/photos/302743/pexels-photo-302743.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+  ],
+  "description": [
+    "The data is provided for your personal, internal use only and not for resale. It is protected by copyright, and is subject to the following terms and conditions which are agreed to by you.",
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...",
+    "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident...",
+    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system...",
+    "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?"
+  ],
+  "tags": ["Atag", "Btag", "Ctag"],
+  "logo": [
+    "https://cdn.logo.com/hotlink-ok/logo-social.png",
+    "https://cdn.icon-icons.com/icons2/2699/PNG/512/atlassian_jira_logo_icon_170511.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Android_O_Preview_Logo.png/1200px-Android_O_Preview_Logo.png"
+  ],
+  "company-url": [
+    "https://my.company.url",
+    "https://raciond.com",
+    "https://thrivingbacking.com",
+    "https://completesupporting.com",
+    "https://servicepowerutopia.com",
+    "https://thepowerbusinessgroup.com"
+  ],
+  "ppr-name": [
+    "Otus-M",
+    "The Service Power",
+    "Analytical Supporting",
+    "Kamadakka",
+    "Biz and Problembiz",
+    "Rational Offices"
+  ],
+  "participant-name": [
+    "Gregory House",
+    "Lisa Cuddy",
+    "James Wilson",
+    "Eric Foreman",
+    "Robert Chase",
+    "Allison Cameron",
+    "Chris Taub",
+    "Remy Hadley",
+    "Lawrence Kutner",
+    "Amber Volakis",
+    "Martha Masters",
+    "Jessica Adams",
+    "Chi Park"
+  ],
+  "registration-type": [
+    "admin_ppr",
+    "admin_pcr",
+    "admin_np"
+  ],
+  "request-type": [
+    "pr_cred",
+    "v_cred",
+    "sd"
+  ]
+}

@@ -1,0 +1,44 @@
+server.port: 8081
+
+# Identity system
+services.identity.uri.external: http://gaia-x.identity.ext:8081
+services.identity.uri_path.email-confirmation-link: /demo/api/identity/ext/email_confirmation
+
+# Portal
+services.portal.uri.external: http://gaia-x.portal.ext:8085
+services.portal.uri_path.wizard_register_viadid: /register/user/viadid
+
+# Email Settings
+spring.mail.host: ${MAIL_SMTP_HOST}
+spring.mail.port: ${MAIL_SMTP_PORT}
+spring.mail.username: ${MAIL_SMTP_USERNAME}
+spring.mail.password: ${MAIL_SMTP_PASSWORD}
+support.email: ${MAIL_SUPPORT_ADDRESS}
+spring.mail.properties.mail.smtp.connecttimeout: 5000
+spring.mail.properties.mail.smtp.timeout: 3000
+spring.mail.properties.mail.smtp.writetimeout: 5000
+spring.mail.properties.mail.smtp.starttls.enable: true
+spring.mail.properties.mail.smpt.auth: true
+
+email.confirmation.frontend.url: http://localhost:3000/confirmation
+
+
+int.keycloak.uri: ${KC_URL_INT}
+keycloak.auth-server-url: ${KC_URL}
+keycloak.realm: ${KC_REALM}
+keycloak.resource: ${KC_RESOURCE}
+keycloak.public-client: true
+keycloak.bearer-only: true
+keycloak.principal-attribute: preferred_username
+ext.keycloak.client_secret: ${KC_CLIENT_SECRET}
+---
+spring.config.activate.on-profile: mesh
+server.port: 80
+server.shutdown: graceful
+spring.lifecycle.timeout-per-shutdown-phase: 10s
+management.endpoint.health.probes.enabled: true
+management.endpoints.web.exposure.include: "*"
+management.server.port: 4004
+
+services.identity.uri.external: https://${PORTAL_URL}
+email.confirmation.frontend.url: https://${PORTAL_URL}/confirmation
